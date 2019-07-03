@@ -6,7 +6,7 @@ const Notes = () => {
     <>
       <div className="row_LR_parent">
         <div className="row_Left">
-          <h2>Name:id</h2>
+          <p>CODER: _ _ _ _</p>
         </div>
         <div className="row_Right">
           <p className="textBox">

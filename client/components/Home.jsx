@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Body = () => {
   return (
     <>
-      <p> Welcome EDA BATCH:#####</p>
+      <p> Welcome CODER:_ _ _ _ </p>
       <section className="Routes_box" />
     </>
   );

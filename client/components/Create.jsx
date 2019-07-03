@@ -5,7 +5,7 @@ const Read = () => {
     // React.Fragment === <>
     <>
       <div className="createBox">
-        <h1>The create profile section</h1>
+        <h2>The create profile section</h2>
         <div className="createImg" />
       </div>
     </>
