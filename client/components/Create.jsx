@@ -4,7 +4,11 @@ const Read = () => {
   return (
     // React.Fragment === <>
     <>
-      <h1>The create section</h1>
+      <div className="createBox">
+        <div className="createImg">
+          <h1>The create section</h1>
+        </div>
+      </div>
     </>
   );
 };

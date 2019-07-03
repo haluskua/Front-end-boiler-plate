@@ -2,7 +2,7 @@ import React from "react";
 import { HashRouter as Router, Route, Link } from "react-router-dom";
 
 import Nav from "./Nav";
-import Body from "./Body";
+import Home from "./Home";
 import Bodymain from "./Bodymain";
 import Create from "./Create";
 import Read from "./Read";
@@ -22,14 +22,15 @@ const App = () => {
           <Nav />
         </div>
         <div className="Viewspage">
+          <Route exact path="/" component={Home} />
           <Route exact path="/Create" component={Create} />
           <Route exact path="/Read" component={Read} />
           <Route exact path="/Update" component={Update} />
           <Route exact path="/Delete" component={Delete} />
           <Route exact path="/Creepers" component={Creepers} />
-          <div>
-            <Body />
-          </div>
+          {/* <div>
+            <Home />
+          </div> */}
         </div>
       </React.Fragment>
     </Router>

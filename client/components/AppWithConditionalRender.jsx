@@ -12,7 +12,6 @@ class App extends React.Component {
 
     this.handleClick = this.handleClick.bind(this)
   }
-
   handleClick(event) {
     event.preventDefault()
 
@@ -34,7 +33,7 @@ class App extends React.Component {
           <li><a href="study-here">Study Here</a></li>
         </ul>
 
-        { this.state.page === 'contact-us' && <ContactUs/>}
+        {this.state.page === 'contact-us' && <ContactUs />}
       </>
     )
   }
