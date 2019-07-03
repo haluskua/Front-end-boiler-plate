@@ -2,9 +2,12 @@ body {
   background-color: black;
   color: white;
   font-size: 1.5em;
-  background-image: url("./images/crud1.png");
-  background-size: cover;
 }
+/* .create_path {
+  background-image: url("./images/");
+  background-size: cover;
+  height: 80vh;
+} */
 
 .row-center-between {
   display: flex;
@@ -12,6 +15,11 @@ body {
   justify-content: space-between;
   align-items: center;
   list-style: none;
+}
+.Routes_box {
+  background-image: url("./images/crud_gold.png");
+  background-size: cover;
+  height: 80vh;
 }
 
 #menu {

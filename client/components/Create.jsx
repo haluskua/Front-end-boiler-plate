@@ -4,7 +4,7 @@ const Read = () => {
   return (
     // React.Fragment === <>
     <>
-      <h1>The read function</h1>
+      <h1>The create section</h1>
     </>
   );
 };

@@ -27,7 +27,9 @@ const App = () => {
           <Route exact path="/Update" component={Update} />
           <Route exact path="/Delete" component={Delete} />
           <Route exact path="/Creepers" component={Creepers} />
-          <Body />
+          <div>
+            <Body />
+          </div>
         </div>
       </React.Fragment>
     </Router>

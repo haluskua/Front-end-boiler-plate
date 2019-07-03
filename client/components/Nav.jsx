@@ -35,7 +35,7 @@ const Nav = props => {
         </li>
         <li>
           <Link className="linkTag" to="/Creepers">
-            Creepers
+            Creeper s
           </Link>
         </li>
       </ul>
