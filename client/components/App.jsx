@@ -8,6 +8,7 @@ import Create from "./Create";
 import Read from "./Read";
 import Update from "./Update";
 import Delete from "./Delete";
+import Creepers from "./Creepers";
 
 // const User = params => {
 //   return <h1> Welcome User {params.username} </h1>;
@@ -21,10 +22,11 @@ const App = () => {
           <Nav />
         </div>
         <div className="Viewspage">
-          <Route path="/Create" component={Create} />
-          <Route path="/Read" component={Read} />
+          <Route exact path="/Create" component={Create} />
+          <Route exact path="/Read" component={Read} />
           <Route exact path="/Update" component={Update} />
-          <Route path="/Delete" component={Delete} />
+          <Route exact path="/Delete" component={Delete} />
+          <Route exact path="/Creepers" component={Creepers} />
           <Body />
         </div>
       </React.Fragment>

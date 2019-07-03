@@ -1,12 +1,12 @@
 import React from "react";
 
-const Create = () => {
+const Read = () => {
   return (
     // React.Fragment === <>
     <>
-      <h1>Create Functionality</h1>
+      <h1>The read function</h1>
     </>
   );
 };
 
-export default Create;
+export default Read;

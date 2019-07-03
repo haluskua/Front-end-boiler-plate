@@ -1,12 +1,12 @@
 import React from "react";
 
-const Read = () => {
+const Creepers = () => {
   return (
     // React.Fragment === <>
     <>
-      <h1> Read Functionality</h1>
+      <h1>The read function</h1>
     </>
   );
 };
 
-export default Read;
+export default Creepers;

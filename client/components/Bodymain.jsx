@@ -2,14 +2,14 @@ import React from "react";
 
 import { Link } from "react-router-dom";
 
-const Bodymain = () => {
+const Creepers = () => {
   return (
     // React.Fragment === <>
     <>
       <div>
         <main>
           <section>
-            <h1>I am the main for body</h1>
+            <h1>The Don'ts</h1>
           </section>
         </main>
       </div>
@@ -17,4 +17,4 @@ const Bodymain = () => {
   );
 };
 
-export default Bodymain;
+export default Creepers;

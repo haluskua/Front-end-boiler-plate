@@ -24,6 +24,9 @@ const Nav = props => {
         <li>
           <Link to="/Delete">Delete</Link>
         </li>
+        <li>
+          <Link to="/Creepers">Creepers</Link>
+        </li>
       </ul>
     </>
   );
