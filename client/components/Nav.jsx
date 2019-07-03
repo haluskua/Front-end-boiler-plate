@@ -8,24 +8,35 @@ const Nav = props => {
     <>
       <ul className="row-center-between">
         <li>
-          <Link to="/" exact activeStyle={{ color: "green" }}>
+          <Link className="linkTag" to="/">
+            {" "}
             Home
           </Link>
         </li>
         <li>
-          <Link to="/Create">Create</Link>
+          <Link className="linkTag" to="/Create">
+            Create
+          </Link>
         </li>
         <li>
-          <Link to="/Read">Read</Link>
+          <Link className="linkTag" to="/Read">
+            Read
+          </Link>
         </li>
         <li>
-          <Link to="/Update">Update</Link>
+          <Link className="linkTag" to="/Update">
+            Update
+          </Link>
         </li>
         <li>
-          <Link to="/Delete">Delete</Link>
+          <Link className="linkTag" to="/Delete">
+            Delete
+          </Link>
         </li>
         <li>
-          <Link to="/Creepers">Creepers</Link>
+          <Link className="linkTag" to="/Creepers">
+            Creepers
+          </Link>
         </li>
       </ul>
     </>

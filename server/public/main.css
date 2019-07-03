@@ -1,6 +1,14 @@
+body {
+  background-color: black;
+  color: white;
+  font-size: 1.5em;
+  background-image: url("./images/crud1.png");
+  background-size: cover;
+}
+
 .row-center-between {
   display: flex;
-  width: 38vw;
+  width: 52%;
   justify-content: space-between;
   align-items: center;
   list-style: none;
@@ -8,13 +16,18 @@
 
 #menu {
   display: flex;
-  align-self: center;
-  background-color: green;
+
+  justify-content: center;
+  width: 100vw;
+}
+.linkTag {
+  font-size: 1.5em;
+  color: snow;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 #app {
   display: flex;
   flex-direction: column;
-  background-color: Yellow;
   padding: 12px;
 }
