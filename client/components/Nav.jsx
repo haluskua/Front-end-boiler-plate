@@ -1,26 +1,28 @@
 import React from "react";
 
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Nav = props => {
   return (
     // React.Fragment === <>
     <>
-      <ul class="row-center-between">
+      <ul className="row-center-between">
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/" exact activeStyle={{ color: "green" }}>
+            Home
+          </Link>
         </li>
         <li>
-          <Link to="/study-with-us/contact-us">Contact Us</Link>
+          <Link to="/Create">Create</Link>
         </li>
         <li>
-          <Link to="/find-us/auckland">Auckland</Link>
+          <Link to="/Read">Read</Link>
         </li>
         <li>
-          <Link to="/find-us/wellington">Wellington</Link>
+          <Link to="/Update">Update</Link>
         </li>
         <li>
-          <Link to="/study-with-us">Study Here</Link>
+          <Link to="/Delete">Delete</Link>
         </li>
       </ul>
     </>

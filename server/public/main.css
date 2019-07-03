@@ -5,3 +5,16 @@
   align-items: center;
   list-style: none;
 }
+
+#menu {
+  display: flex;
+  align-self: center;
+  background-color: green;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  background-color: Yellow;
+  padding: 12px;
+}
