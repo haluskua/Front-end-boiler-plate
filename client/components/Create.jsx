@@ -5,9 +5,8 @@ const Read = () => {
     // React.Fragment === <>
     <>
       <div className="createBox">
-        <div className="createImg">
-          <h1>The create section</h1>
-        </div>
+        <h1>The create profile section</h1>
+        <div className="createImg" />
       </div>
     </>
   );

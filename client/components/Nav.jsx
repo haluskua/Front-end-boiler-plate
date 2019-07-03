@@ -19,11 +19,11 @@ const Nav = props => {
           </Link>
         </li>
         <li>
-          <Link className="linkTag" to="/Read">
-            Read
+          <Link className="linkTag" to="/Notes">
+            Notes
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link className="linkTag" to="/Update">
             Update
           </Link>
@@ -36,8 +36,7 @@ const Nav = props => {
         <li>
           <Link className="linkTag" to="/Creepers">
             Creeper s
-          </Link>
-        </li>
+          </Link> */}
       </ul>
     </>
   );

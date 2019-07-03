@@ -8,6 +8,7 @@ import Create from "./Create";
 import Read from "./Read";
 import Update from "./Update";
 import Delete from "./Delete";
+import Notes from "./Notes";
 import Creepers from "./Creepers";
 
 // const User = params => {
@@ -24,10 +25,10 @@ const App = () => {
         <div className="Viewspage">
           <Route exact path="/" component={Home} />
           <Route exact path="/Create" component={Create} />
-          <Route exact path="/Read" component={Read} />
-          <Route exact path="/Update" component={Update} />
+          <Route exact path="/Notes" component={Notes} />
+          {/* <Route exact path="/Update" component={Update} />
           <Route exact path="/Delete" component={Delete} />
-          <Route exact path="/Creepers" component={Creepers} />
+          <Route exact path="/Creepers" component={Creepers} /> */}
           {/* <div>
             <Home />
           </div> */}

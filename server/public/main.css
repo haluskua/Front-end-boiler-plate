@@ -1,7 +1,7 @@
 body {
-  background-color: black;
-  color: white;
-  font-size: 1.5em;
+  background-color: #f7f5e5;
+  color: black;
+  font-size: 1.2em;
 }
 /* .create_path {
   background-image: url("./images/");
@@ -11,10 +11,11 @@ body {
 
 .row-center-between {
   display: flex;
-  width: 52%;
+  width: 22%;
   justify-content: space-between;
   align-items: center;
   list-style: none;
+  margin-top: 0;
 }
 .Routes_box {
   background-image: url("./images/crud_gold.png");
@@ -24,9 +25,41 @@ body {
 .createImg {
   background-image: url("./images/crud1.png");
   background-size: cover;
-  height: 50vh;
+  height: 100vh;
 }
-
+.row_LR_parent {
+  display: flex;
+  align-self: center;
+  height: 80vh;
+  background-color: snow;
+  width: 100%;
+}
+.row_Left {
+  width: 20%;
+  background-color: rgb(243, 245, 223);
+  color: #423b3b;
+  display: flex;
+  justify-content: center;
+}
+.row_Right {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+.textBox {
+  padding: 12px;
+  background-color: rgba(243, 250, 148, 0.192);
+  color: rgb(70, 75, 58);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.update_post {
+  height: 33px;
+  width: 110px;
+  background-color: orange;
+  padding: 8px;
+  border-radius: 4px;
+}
 #menu {
   display: flex;
 
@@ -34,10 +67,12 @@ body {
   width: 100vw;
 }
 .linkTag {
-  font-size: 1.5em;
-  color: #fcdf81;
+  font-size: 1.43em;
+  font-weight: bold;
+  color: #1d1c17;
   text-decoration: none;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 #app {
